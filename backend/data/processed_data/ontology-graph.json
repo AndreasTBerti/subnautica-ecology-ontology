@@ -1,0 +1,1021 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "AlienLifeForm",
+                "label": "AlienLifeForm",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "EnvironmentalCondition",
+                "label": "EnvironmentalCondition",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "EnvironmentalProfile",
+                "label": "EnvironmentalProfile",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Environment",
+                "label": "Environment",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Fauna",
+                "label": "Fauna",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "DietType",
+                "label": "DietType",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "EcologicalRole",
+                "label": "EcologicalRole",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Trait",
+                "label": "Trait",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Planet",
+                "label": "Planet",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "HabitatMedium",
+                "label": "HabitatMedium",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Biome",
+                "label": "Biome",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "TrophicLevel",
+                "label": "TrophicLevel",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Resource",
+                "label": "Resource",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "ArtificialStructure",
+                "label": "ArtificialStructure",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "AlienBase",
+                "label": "AlienBase",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "CaveBiome",
+                "label": "CaveBiome",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "CaveStructure",
+                "label": "CaveStructure",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "CompatibleOrganism",
+                "label": "CompatibleOrganism",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Coral",
+                "label": "Coral",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "SessileOrganism",
+                "label": "SessileOrganism",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Flora",
+                "label": "Flora",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "Leviathan",
+                "label": "Leviathan",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "LightCondition",
+                "label": "LightCondition",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "MineralResource",
+                "label": "MineralResource",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "OceanBiome",
+                "label": "OceanBiome",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "OrganicResource",
+                "label": "OrganicResource",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "PressureCondition",
+                "label": "PressureCondition",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "SurfaceBiome",
+                "label": "SurfaceBiome",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "TemperatureCondition",
+                "label": "TemperatureCondition",
+                "kind": "class"
+            }
+        },
+        {
+            "data": {
+                "id": "4645B",
+                "label": "4645B",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Ameboid",
+                "label": "Ameboid",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "DeepSeaProfile",
+                "label": "DeepSeaProfile",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Dentritivore",
+                "label": "Dentritivore",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "LostRiver",
+                "label": "LostRiver",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "DecomposerLevel",
+                "label": "DecomposerLevel",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Amphibious",
+                "label": "Amphibious",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "ApexPredator",
+                "label": "ApexPredator",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Aquatic",
+                "label": "Aquatic",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "ArcticProfile",
+                "label": "ArcticProfile",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "ExtremeCold",
+                "label": "ExtremeCold",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Bioluminescent",
+                "label": "Bioluminescent",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "BloodKelpZone",
+                "label": "BloodKelpZone",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "BulbZone",
+                "label": "BulbZone",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Carnivore",
+                "label": "Carnivore",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Copper",
+                "label": "Copper",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Decomposer",
+                "label": "Decomposer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "HighPressure",
+                "label": "HighPressure",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "LowLight",
+                "label": "LowLight",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Diamond",
+                "label": "Diamond",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "FilterFeeder",
+                "label": "FilterFeeder",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "GelSack",
+                "label": "GelSack",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "PrimaryProducer",
+                "label": "PrimaryProducer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Photosythetic",
+                "label": "Photosythetic",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Producer",
+                "label": "Producer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "NaturalGel",
+                "label": "NaturalGel",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "GhostLeviathan",
+                "label": "GhostLeviathan",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "TertiaryConsumer",
+                "label": "TertiaryConsumer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Ghostray",
+                "label": "Ghostray",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "RiverProwler",
+                "label": "RiverProwler",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "GhostWeed",
+                "label": "GhostWeed",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Herbivore",
+                "label": "Herbivore",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Gold",
+                "label": "Gold",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "HighTemperature",
+                "label": "HighTemperature",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "IceSurface",
+                "label": "IceSurface",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "LavaLake",
+                "label": "LavaLake",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "ThermalProfile",
+                "label": "ThermalProfile",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Lead",
+                "label": "Lead",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "LightExposure",
+                "label": "LightExposure",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Lithium",
+                "label": "Lithium",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Magntite",
+                "label": "Magntite",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Ruby",
+                "label": "Ruby",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Nickel",
+                "label": "Nickel",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Omnivore",
+                "label": "Omnivore",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "PrimaryConsumer",
+                "label": "PrimaryConsumer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Quartz",
+                "label": "Quartz",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Scavenger",
+                "label": "Scavenger",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "SecondaryConsumer",
+                "label": "SecondaryConsumer",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "ShallowSurfaceProfile",
+                "label": "ShallowSurfaceProfile",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "SilverOre",
+                "label": "SilverOre",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "SimplePredator",
+                "label": "SimplePredator",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Terrestrial",
+                "label": "Terrestrial",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Titanium",
+                "label": "Titanium",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Uranite",
+                "label": "Uranite",
+                "kind": "individual"
+            }
+        },
+        {
+            "data": {
+                "id": "Venomous",
+                "label": "Venomous",
+                "kind": "individual"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "source": "Ameboid",
+                "target": "DeepSeaProfile",
+                "label": "adaptedToProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "DeepSeaProfile",
+                "label": "adaptedToProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "DeepSeaProfile",
+                "label": "adaptedToProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "DeepSeaProfile",
+                "label": "adaptedToProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "RiverProwler",
+                "target": "DeepSeaProfile",
+                "label": "adaptedToProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "ArcticProfile",
+                "target": "ExtremeCold",
+                "label": "profileHasCondition"
+            }
+        },
+        {
+            "data": {
+                "source": "DeepSeaProfile",
+                "target": "HighPressure",
+                "label": "profileHasCondition"
+            }
+        },
+        {
+            "data": {
+                "source": "DeepSeaProfile",
+                "target": "LowLight",
+                "label": "profileHasCondition"
+            }
+        },
+        {
+            "data": {
+                "source": "ShallowSurfaceProfile",
+                "target": "LightExposure",
+                "label": "profileHasCondition"
+            }
+        },
+        {
+            "data": {
+                "source": "ThermalProfile",
+                "target": "HighTemperature",
+                "label": "profileHasCondition"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "Ghostray",
+                "label": "predatorOf"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "RiverProwler",
+                "label": "predatorOf"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "GhostLeviathan",
+                "label": "preyOf"
+            }
+        },
+        {
+            "data": {
+                "source": "RiverProwler",
+                "target": "GhostLeviathan",
+                "label": "preyOf"
+            }
+        },
+        {
+            "data": {
+                "source": "BloodKelpZone",
+                "target": "DeepSeaProfile",
+                "label": "hasProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "BulbZone",
+                "target": "DeepSeaProfile",
+                "label": "hasProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "LavaLake",
+                "target": "DeepSeaProfile",
+                "label": "hasProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "LavaLake",
+                "target": "ThermalProfile",
+                "label": "hasProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "DeepSeaProfile",
+                "label": "hasProfile"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "Carnivore",
+                "label": "hasDiet"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "Herbivore",
+                "label": "hasDiet"
+            }
+        },
+        {
+            "data": {
+                "source": "RiverProwler",
+                "target": "Carnivore",
+                "label": "hasDiet"
+            }
+        },
+        {
+            "data": {
+                "source": "Ameboid",
+                "target": "Dentritivore",
+                "label": "hasEcologicalRole"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "PrimaryProducer",
+                "label": "hasEcologicalRole"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "ApexPredator",
+                "label": "hasEcologicalRole"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostWeed",
+                "target": "PrimaryProducer",
+                "label": "hasEcologicalRole"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "Lithium",
+                "label": "hasResource"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "Magntite",
+                "label": "hasResource"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "Ruby",
+                "label": "hasResource"
+            }
+        },
+        {
+            "data": {
+                "source": "Lithium",
+                "target": "LostRiver",
+                "label": "resourceFoundIn"
+            }
+        },
+        {
+            "data": {
+                "source": "Magntite",
+                "target": "LostRiver",
+                "label": "resourceFoundIn"
+            }
+        },
+        {
+            "data": {
+                "source": "Ruby",
+                "target": "LostRiver",
+                "label": "resourceFoundIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "Photosythetic",
+                "label": "hasTrait"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "Bioluminescent",
+                "label": "hasTrait"
+            }
+        },
+        {
+            "data": {
+                "source": "Ameboid",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "BloodKelpZone",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostWeed",
+                "target": "BloodKelpZone",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostWeed",
+                "target": "BulbZone",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostWeed",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "RiverProwler",
+                "target": "LostRiver",
+                "label": "livesIn"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "Ameboid",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "BloodKelpZone",
+                "target": "GelSack",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "GelSack",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "GhostLeviathan",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "BloodKelpZone",
+                "target": "GhostWeed",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "BulbZone",
+                "target": "GhostWeed",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "GhostWeed",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "Ghostray",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "LostRiver",
+                "target": "RiverProwler",
+                "label": "inhabitedBy"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "Aquatic",
+                "label": "inhabitsMedium"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "Aquatic",
+                "label": "inhabitsMedium"
+            }
+        },
+        {
+            "data": {
+                "source": "Ghostray",
+                "target": "Aquatic",
+                "label": "inhabitsMedium"
+            }
+        },
+        {
+            "data": {
+                "source": "RiverProwler",
+                "target": "Aquatic",
+                "label": "inhabitsMedium"
+            }
+        },
+        {
+            "data": {
+                "source": "Ameboid",
+                "target": "DecomposerLevel",
+                "label": "occupiesTrophicLevel"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "Producer",
+                "label": "occupiesTrophicLevel"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostLeviathan",
+                "target": "TertiaryConsumer",
+                "label": "occupiesTrophicLevel"
+            }
+        },
+        {
+            "data": {
+                "source": "GhostWeed",
+                "target": "Producer",
+                "label": "occupiesTrophicLevel"
+            }
+        },
+        {
+            "data": {
+                "source": "GelSack",
+                "target": "NaturalGel",
+                "label": "producesResource"
+            }
+        }
+    ]
+}
