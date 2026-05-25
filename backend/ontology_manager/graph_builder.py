@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR: Path = Path(__file__).resolve().parent.parent
 JSON_OUTPUT_PATH: Path = BASE_DIR / "data" / "processed_data" / "ontology-graph.json"
 
-def export_json_graph(ontology: Ontology) -> None:
+def build_json_graph(ontology: Ontology) -> None:
 
     nodes: list = []
     edges: list = []
