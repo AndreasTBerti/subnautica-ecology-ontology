@@ -12,31 +12,32 @@ def build_json_graph(ontology: Ontology) -> None:
     added_nodes: set = set()
 
     # getting classes
-    for cls in ontology.classes():
+    # for cls in ontology.classes():
 
-        node_id = cls.name
-        if node_id not in added_nodes:
-            nodes.append({
-                "data": {
-                    "id": node_id,
-                    "label": node_id,
-                    "kind": "class"
-                }
-            })
+    #     node_id = cls.name
+    #     if node_id not in added_nodes:
+    #         nodes.append({
+    #             "data": {
+    #                 "id": node_id,
+    #                 "label": node_id,
+    #                 "kind": "class"
+    #             }
+    #         })
 
-            added_nodes.add(node_id)
+    #         added_nodes.add(node_id)
 
     # getting individuals
     for individual in ontology.individuals():
 
-        individual_classes = [
-            cls.name
-            for cls in individual.is_a
-            if hasattr(cls, "name")
-        ]
-
         node_id = individual.name
         if node_id not in added_nodes:
+
+            individual_classes = [
+                cls.name
+                for cls in individual.INDIRECT_is_a
+                if hasattr(cls, "name")
+            ]
+
             nodes.append({
                 "data": {
                     "id": node_id,

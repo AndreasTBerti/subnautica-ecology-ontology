@@ -1,6 +1,6 @@
 from app.services.graph_export import export_json_graph
 
-json_graph = export_json_graph()
+json_graph: dict = export_json_graph()
 
 nodes: dict = json_graph["nodes"]
 edges: dict = json_graph["edges"]
