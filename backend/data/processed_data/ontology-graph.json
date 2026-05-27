@@ -5,10 +5,7 @@
                 "id": "4645B",
                 "label": "4645B",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "Planet"
-                ]
+                "classes": "Thing Planet"
             }
         },
         {
@@ -16,11 +13,7 @@
                 "id": "Ameboid",
                 "label": "Ameboid",
                 "kind": "individual",
-                "classes": [
-                    "AlienLifeForm",
-                    "Thing",
-                    "SessileOrganism"
-                ]
+                "classes": "Thing AlienLifeForm SessileOrganism"
             }
         },
         {
@@ -28,10 +21,7 @@
                 "id": "DeepSeaProfile",
                 "label": "DeepSeaProfile",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "EnvironmentalProfile"
-                ]
+                "classes": "EnvironmentalProfile Thing"
             }
         },
         {
@@ -39,10 +29,7 @@
                 "id": "Dentritivore",
                 "label": "Dentritivore",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -50,12 +37,7 @@
                 "id": "LostRiver",
                 "label": "LostRiver",
                 "kind": "individual",
-                "classes": [
-                    "Environment",
-                    "Biome",
-                    "Thing",
-                    "CaveBiome"
-                ]
+                "classes": "Biome CaveBiome Thing Environment"
             }
         },
         {
@@ -63,10 +45,7 @@
                 "id": "DecomposerLevel",
                 "label": "DecomposerLevel",
                 "kind": "individual",
-                "classes": [
-                    "TrophicLevel",
-                    "Thing"
-                ]
+                "classes": "Thing TrophicLevel"
             }
         },
         {
@@ -74,10 +53,7 @@
                 "id": "Amphibious",
                 "label": "Amphibious",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "HabitatMedium"
-                ]
+                "classes": "HabitatMedium Thing"
             }
         },
         {
@@ -85,10 +61,7 @@
                 "id": "ApexPredator",
                 "label": "ApexPredator",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -96,10 +69,7 @@
                 "id": "Aquatic",
                 "label": "Aquatic",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "HabitatMedium"
-                ]
+                "classes": "HabitatMedium Thing"
             }
         },
         {
@@ -107,10 +77,7 @@
                 "id": "ArcticProfile",
                 "label": "ArcticProfile",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "EnvironmentalProfile"
-                ]
+                "classes": "EnvironmentalProfile Thing"
             }
         },
         {
@@ -118,11 +85,7 @@
                 "id": "ExtremeCold",
                 "label": "ExtremeCold",
                 "kind": "individual",
-                "classes": [
-                    "TemperatureCondition",
-                    "Thing",
-                    "EnvironmentalCondition"
-                ]
+                "classes": "TemperatureCondition Thing EnvironmentalCondition"
             }
         },
         {
@@ -130,10 +93,7 @@
                 "id": "Bioluminescent",
                 "label": "Bioluminescent",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "Trait"
-                ]
+                "classes": "Trait Thing"
             }
         },
         {
@@ -141,12 +101,7 @@
                 "id": "BloodKelpZone",
                 "label": "BloodKelpZone",
                 "kind": "individual",
-                "classes": [
-                    "Environment",
-                    "Biome",
-                    "OceanBiome",
-                    "Thing"
-                ]
+                "classes": "Biome Thing OceanBiome Environment"
             }
         },
         {
@@ -154,12 +109,7 @@
                 "id": "BulbZone",
                 "label": "BulbZone",
                 "kind": "individual",
-                "classes": [
-                    "Environment",
-                    "Biome",
-                    "OceanBiome",
-                    "Thing"
-                ]
+                "classes": "Biome Thing OceanBiome Environment"
             }
         },
         {
@@ -167,10 +117,7 @@
                 "id": "Carnivore",
                 "label": "Carnivore",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "DietType"
-                ]
+                "classes": "Thing DietType"
             }
         },
         {
@@ -178,11 +125,7 @@
                 "id": "Copper",
                 "label": "Copper",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -190,10 +133,7 @@
                 "id": "Decomposer",
                 "label": "Decomposer",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -201,11 +141,7 @@
                 "id": "HighPressure",
                 "label": "HighPressure",
                 "kind": "individual",
-                "classes": [
-                    "PressureCondition",
-                    "Thing",
-                    "EnvironmentalCondition"
-                ]
+                "classes": "Thing PressureCondition EnvironmentalCondition"
             }
         },
         {
@@ -213,11 +149,7 @@
                 "id": "LowLight",
                 "label": "LowLight",
                 "kind": "individual",
-                "classes": [
-                    "LightCondition",
-                    "Thing",
-                    "EnvironmentalCondition"
-                ]
+                "classes": "Thing LightCondition EnvironmentalCondition"
             }
         },
         {
@@ -225,11 +157,7 @@
                 "id": "Diamond",
                 "label": "Diamond",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -237,10 +165,7 @@
                 "id": "FilterFeeder",
                 "label": "FilterFeeder",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -248,11 +173,7 @@
                 "id": "GelSack",
                 "label": "GelSack",
                 "kind": "individual",
-                "classes": [
-                    "AlienLifeForm",
-                    "Thing",
-                    "Flora"
-                ]
+                "classes": "Flora Thing AlienLifeForm"
             }
         },
         {
@@ -260,10 +181,7 @@
                 "id": "PrimaryProducer",
                 "label": "PrimaryProducer",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -271,10 +189,7 @@
                 "id": "Photosythetic",
                 "label": "Photosythetic",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "Trait"
-                ]
+                "classes": "Trait Thing"
             }
         },
         {
@@ -282,10 +197,7 @@
                 "id": "Producer",
                 "label": "Producer",
                 "kind": "individual",
-                "classes": [
-                    "TrophicLevel",
-                    "Thing"
-                ]
+                "classes": "Thing TrophicLevel"
             }
         },
         {
@@ -293,11 +205,7 @@
                 "id": "NaturalGel",
                 "label": "NaturalGel",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "OrganicResource",
-                    "Thing"
-                ]
+                "classes": "OrganicResource Thing Resource"
             }
         },
         {
@@ -305,11 +213,7 @@
                 "id": "GhostLeviathan",
                 "label": "GhostLeviathan",
                 "kind": "individual",
-                "classes": [
-                    "Fauna",
-                    "AlienLifeForm",
-                    "Thing"
-                ]
+                "classes": "Fauna AlienLifeForm Thing"
             }
         },
         {
@@ -317,10 +221,7 @@
                 "id": "TertiaryConsumer",
                 "label": "TertiaryConsumer",
                 "kind": "individual",
-                "classes": [
-                    "TrophicLevel",
-                    "Thing"
-                ]
+                "classes": "Thing TrophicLevel"
             }
         },
         {
@@ -328,11 +229,7 @@
                 "id": "Ghostray",
                 "label": "Ghostray",
                 "kind": "individual",
-                "classes": [
-                    "Fauna",
-                    "AlienLifeForm",
-                    "Thing"
-                ]
+                "classes": "Fauna AlienLifeForm Thing"
             }
         },
         {
@@ -340,11 +237,7 @@
                 "id": "RiverProwler",
                 "label": "RiverProwler",
                 "kind": "individual",
-                "classes": [
-                    "Fauna",
-                    "AlienLifeForm",
-                    "Thing"
-                ]
+                "classes": "Fauna AlienLifeForm Thing"
             }
         },
         {
@@ -352,11 +245,7 @@
                 "id": "GhostWeed",
                 "label": "GhostWeed",
                 "kind": "individual",
-                "classes": [
-                    "AlienLifeForm",
-                    "Thing",
-                    "Flora"
-                ]
+                "classes": "Flora Thing AlienLifeForm"
             }
         },
         {
@@ -364,10 +253,7 @@
                 "id": "Herbivore",
                 "label": "Herbivore",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "DietType"
-                ]
+                "classes": "Thing DietType"
             }
         },
         {
@@ -375,11 +261,7 @@
                 "id": "Gold",
                 "label": "Gold",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -387,11 +269,7 @@
                 "id": "HighTemperature",
                 "label": "HighTemperature",
                 "kind": "individual",
-                "classes": [
-                    "TemperatureCondition",
-                    "Thing",
-                    "EnvironmentalCondition"
-                ]
+                "classes": "TemperatureCondition Thing EnvironmentalCondition"
             }
         },
         {
@@ -399,10 +277,7 @@
                 "id": "IceSurface",
                 "label": "IceSurface",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "HabitatMedium"
-                ]
+                "classes": "HabitatMedium Thing"
             }
         },
         {
@@ -410,12 +285,7 @@
                 "id": "LavaLake",
                 "label": "LavaLake",
                 "kind": "individual",
-                "classes": [
-                    "Environment",
-                    "Biome",
-                    "Thing",
-                    "CaveBiome"
-                ]
+                "classes": "Biome CaveBiome Thing Environment"
             }
         },
         {
@@ -423,10 +293,7 @@
                 "id": "ThermalProfile",
                 "label": "ThermalProfile",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "EnvironmentalProfile"
-                ]
+                "classes": "EnvironmentalProfile Thing"
             }
         },
         {
@@ -434,11 +301,7 @@
                 "id": "Lead",
                 "label": "Lead",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -446,11 +309,7 @@
                 "id": "LightExposure",
                 "label": "LightExposure",
                 "kind": "individual",
-                "classes": [
-                    "LightCondition",
-                    "Thing",
-                    "EnvironmentalCondition"
-                ]
+                "classes": "Thing LightCondition EnvironmentalCondition"
             }
         },
         {
@@ -458,11 +317,7 @@
                 "id": "Lithium",
                 "label": "Lithium",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -470,11 +325,7 @@
                 "id": "Magntite",
                 "label": "Magntite",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -482,11 +333,7 @@
                 "id": "Ruby",
                 "label": "Ruby",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -494,11 +341,7 @@
                 "id": "Nickel",
                 "label": "Nickel",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -506,10 +349,7 @@
                 "id": "Omnivore",
                 "label": "Omnivore",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "DietType"
-                ]
+                "classes": "Thing DietType"
             }
         },
         {
@@ -517,10 +357,7 @@
                 "id": "PrimaryConsumer",
                 "label": "PrimaryConsumer",
                 "kind": "individual",
-                "classes": [
-                    "TrophicLevel",
-                    "Thing"
-                ]
+                "classes": "Thing TrophicLevel"
             }
         },
         {
@@ -528,11 +365,7 @@
                 "id": "Quartz",
                 "label": "Quartz",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -540,10 +373,7 @@
                 "id": "Scavenger",
                 "label": "Scavenger",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -551,10 +381,7 @@
                 "id": "SecondaryConsumer",
                 "label": "SecondaryConsumer",
                 "kind": "individual",
-                "classes": [
-                    "TrophicLevel",
-                    "Thing"
-                ]
+                "classes": "Thing TrophicLevel"
             }
         },
         {
@@ -562,10 +389,7 @@
                 "id": "ShallowSurfaceProfile",
                 "label": "ShallowSurfaceProfile",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "EnvironmentalProfile"
-                ]
+                "classes": "EnvironmentalProfile Thing"
             }
         },
         {
@@ -573,11 +397,7 @@
                 "id": "SilverOre",
                 "label": "SilverOre",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -585,10 +405,7 @@
                 "id": "SimplePredator",
                 "label": "SimplePredator",
                 "kind": "individual",
-                "classes": [
-                    "EcologicalRole",
-                    "Thing"
-                ]
+                "classes": "Thing EcologicalRole"
             }
         },
         {
@@ -596,10 +413,7 @@
                 "id": "Terrestrial",
                 "label": "Terrestrial",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "HabitatMedium"
-                ]
+                "classes": "HabitatMedium Thing"
             }
         },
         {
@@ -607,11 +421,7 @@
                 "id": "Titanium",
                 "label": "Titanium",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -619,11 +429,7 @@
                 "id": "Uranite",
                 "label": "Uranite",
                 "kind": "individual",
-                "classes": [
-                    "Resource",
-                    "MineralResource",
-                    "Thing"
-                ]
+                "classes": "Thing MineralResource Resource"
             }
         },
         {
@@ -631,10 +437,7 @@
                 "id": "Venomous",
                 "label": "Venomous",
                 "kind": "individual",
-                "classes": [
-                    "Thing",
-                    "Trait"
-                ]
+                "classes": "Trait Thing"
             }
         }
     ],

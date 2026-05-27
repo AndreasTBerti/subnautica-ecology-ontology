@@ -5,6 +5,6 @@ from app.services.graph_queries import (
 
 router = APIRouter()
 
-@router.get("/food-web")
+@router.get("/ontology/food-web")
 def food_web():
     return get_food_web()

@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
+@app.get("/ontology/general-graph")
 def home():
     return export_json_graph()
 

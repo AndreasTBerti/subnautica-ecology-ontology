@@ -43,7 +43,7 @@ def build_json_graph(ontology: Ontology) -> None:
                     "id": node_id,
                     "label": node_id,
                     "kind": "individual",
-                    "classes": individual_classes
+                    "classes": " ".join(individual_classes)
                 }
             })
 
