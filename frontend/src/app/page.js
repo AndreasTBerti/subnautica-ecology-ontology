@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import OntologyGraph from "@/components/OntologyGraph"
 
+import OntologyGraph from "@/components/OntologyGraph"
 import {
     getOntologyGraph
 } from "@/services/connectOntologyApi"

@@ -11,6 +11,20 @@
 
 <owl:Ontology rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology"/>
 
+<owl:ObjectProperty rdf:about="#carriesMicroorganism">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#infectedBy">
+  <owl:inverseOf rdf:resource="#infects"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#infects">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/adaptedTo">
   <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
   <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
@@ -230,6 +244,10 @@
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
 
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalProfile"/>
@@ -271,12 +289,20 @@
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ArtificialStructure"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/BacterialLikeOrganism">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/CaveBiome">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Biome"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/CaveStructure">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Environment"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ColonialOrganism">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/CompatibleOrganism">
@@ -306,6 +332,10 @@
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/JellyCluster">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ColonialOrganism"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Leviathan">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Fauna"/>
 </owl:Class>
@@ -314,7 +344,20 @@
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/MicrobialColony">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/MicrobialMat">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ColonialOrganism"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/MineralResource">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Resource"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OrganicResource"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OrganicResource">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Resource"/>
 </owl:Class>
 
@@ -322,12 +365,12 @@
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Biome"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OrganicResource">
-  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Resource"/>
-</owl:Class>
-
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/PressureCondition">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/SpongeNetwork">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ColonialOrganism"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/SurfaceBiome">
@@ -336,6 +379,10 @@
 
 <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/TemperatureCondition">
   <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ViralEntity">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
 </owl:Class>
 
 <owl:NamedIndividual rdf:about="#4645B">
@@ -366,6 +413,7 @@
   <subn:hasResource rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Lithium"/>
   <subn:hasResource rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Magntite"/>
   <subn:hasResource rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Ruby"/>
+  <subn:partOf rdf:resource="#4645B"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/DecomposerLevel">
@@ -400,11 +448,13 @@
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/BloodKelpZone">
   <rdf:type rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OceanBiome"/>
   <subn:hasProfile rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/DeepSeaProfile"/>
+  <subn:partOf rdf:resource="#4645B"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/BulbZone">
   <rdf:type rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OceanBiome"/>
   <subn:hasProfile rdf:resource="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/DeepSeaProfile"/>
+  <subn:partOf rdf:resource="#4645B"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Carnivore">
@@ -713,6 +763,65 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Venomous"/>
   </owl:distinctMembers>
 </owl:AllDifferent>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/LightCondition"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/PressureCondition"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/TemperatureCondition"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/JellyCluster"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/MicrobialMat"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/SpongeNetwork"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ColonialOrganism"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Fauna"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Flora"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Microorganism"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/SessileOrganism"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/CaveBiome"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/OceanBiome"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/SurfaceBiome"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/BacterialLikeOrganism"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/MicrobialColony"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ViralEntity"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/AlienLifeForm"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/ArtificialStructure"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/DietType"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EcologicalRole"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Environment"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalCondition"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/EnvironmentalProfile"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/HabitatMedium"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Planet"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Resource"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/Trait"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2026/4/subnautica-ecology-ontology/TrophicLevel"/>
+  </owl:members>
+</owl:AllDisjointClasses>
 
 
 </rdf:RDF>

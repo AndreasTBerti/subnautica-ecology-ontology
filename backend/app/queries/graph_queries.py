@@ -21,6 +21,8 @@ incoming_edges: dict = {}
 #     outgoing_edges.setdefault(source, []).append(edge)
 #     incoming_edges.setdefault(target, []).append(edge)
 
+def get_full_graph() -> dict:
+    return json_graph
 
 def get_food_web() -> list:
 
