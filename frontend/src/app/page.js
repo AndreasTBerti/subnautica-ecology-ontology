@@ -1,39 +1,29 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react";
 
-import OntologyGraph from "@/components/OntologyGraph"
-import {
-    getOntologyGraph
-} from "@/services/connectOntologyApi"
+import useGraph from "@/hooks/useGraph";
 
+import GraphContainer from "@/components/menu-elements/GraphContainer"
+import GraphViewer from "@/components/graph-elements/GraphViewer"
 
-export default function Home() {
+export default function Home()
+{
 
-    const [elements, setElements] = useState([])
+    const [graphType, setGraphType] = useState("food-web");
 
-    useEffect(() => {
+    const {
+        data,
+        isLoading
+    } = useGraph(graphType);
 
-        async function loadGraph() {
-
-            const graph = await getOntologyGraph()
-
-            const formattedElements = [
-                ...graph.nodes,
-                ...graph.edges
-            ];
-            
-            setElements(formattedElements)
-
-        }
-
-        loadGraph();
-
-    }, [])
+    const elements = data
 
     return (
-      <main>
-        <OntologyGraph elements={elements} />
-      </main>
+        <div>
+            <GraphContainer>
+                <GraphViewer elements={elements}/>
+            </GraphContainer>
+        </div>
     )
 }
