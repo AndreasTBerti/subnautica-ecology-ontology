@@ -4,26 +4,31 @@ import { useState } from "react";
 
 import useGraph from "@/hooks/useGraph";
 
-import GraphContainer from "@/components/menu-elements/GraphContainer"
 import GraphViewer from "@/components/graph-elements/GraphViewer"
 
 export default function Home()
 {
 
-    const [graphType, setGraphType] = useState("food-web");
+    const [graphType, setGraphType] = useState("full-graph");
 
     const {
         data,
-        isLoading
+        loading,
+        error,
     } = useGraph(graphType);
 
     const elements = data
+        ? [
+            ...data.nodes,
+            ...data.edges
+        ]
+        : [];
 
     return (
-        <div>
-            <GraphContainer>
+        <div className="app">
+            <div className="graphContainer">
                 <GraphViewer elements={elements}/>
-            </GraphContainer>
+            </div>
         </div>
     )
 }
