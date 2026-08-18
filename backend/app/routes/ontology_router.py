@@ -5,12 +5,12 @@ from app.queries.graph_queries import (
     get_full_graph
 )
 
-router = APIRouter()
+router = APIRouter(prefix="/ontology")
 
-@router.get("/ontology/food-web")
+@router.get("/food-web")
 def food_web():
     return get_food_web()
 
-@router.get("/ontology/full-graph")
+@router.get("/full-graph")
 def full_graph():
     return get_full_graph()
